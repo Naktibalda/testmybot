@@ -149,7 +149,7 @@ function readConvo(filename) {
 			} else {
 				readConvoResolve(convo);
       }
-			
+
     }).catch((err) => readConvoReject(err));
   });
 }
